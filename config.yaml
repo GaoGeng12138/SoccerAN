@@ -1,4 +1,4 @@
-# SoccerAN baseline config — Big Five leagues (football-data.co.uk)
+# SoccerAN baseline config — Big Five leagues
 
 leagues:
   E0:
@@ -16,6 +16,12 @@ leagues:
   F1:
     name: "FRA Ligue 1"
     code: F1
+  JP1:
+    name: "JPN J1 League"
+    code: JP1
+  KR1:
+    name: "KOR K League 1"
+    code: KR1
 
 # Season codes relative to "current" (e.g. 2526 = 2025-26).
 # fetch will pull these many recent seasons ending at current_season.
@@ -27,6 +33,7 @@ seasons:
 data:
   base_url: "https://www.football-data.co.uk/mmz4281"
   raw_dir: "data/raw"
+  fixtures_dir: "data/fixtures"
   # CSV columns used (football-data.co.uk format)
   date_col: Date
   home_col: HomeTeam
@@ -34,6 +41,82 @@ data:
   fthg_col: FTHG
   ftag_col: FTAG
   ftr_col: FTR
+
+# Ordered result sources for finished matches (first success wins per league/season).
+sources:
+  order:
+    - football_data
+    - jleague
+    - kleague
+    - openfootball
+    - football_datasets
+    - openligadb
+    - england_mirror
+  football_data:
+    enabled: true
+    base_url: "https://www.football-data.co.uk/mmz4281"
+  # openfootball/football.json — best I1/F1 backup (results + fixtures, keyless).
+  # Covers 2024-25 / 2025-26 / 2026-27 Serie A + Ligue 1 (verified Sep 2026).
+  openfootball:
+    enabled: true
+    base_url: "https://raw.githubusercontent.com/openfootball/football.json/master"
+    # SoccerAN league_code → filename under {YYYY-YY}/
+    files:
+      I1: it.1.json
+      F1: fr.1.json
+      JP1: jp.1.json   # calendar-year path e.g. 2025/jp.1.json (partial)
+    calendar_year_leagues: [JP1]
+  # datasets/football-datasets GitHub CSV mirror (football-data schema).
+  # Historical finished results for I1/F1 through season-2526; no fixtures; no 2627 yet.
+  football_datasets:
+    enabled: true
+    base_url: "https://raw.githubusercontent.com/datasets/football-datasets/master/datasets"
+    leagues:
+      I1: serie-a
+      F1: ligue-1
+  # J.League official HTML schedule (JP1) — results + fixtures, Japanese abbreviations.
+  jleague:
+    enabled: true
+    base_url: "https://data.j-league.or.jp/SFMS01/search"
+    competition_frame_ids: "1"
+    leagues: [JP1]
+  # K League official JSON API (KR1) — monthly getScheduleList.do, Korean short names.
+  kleague:
+    enabled: true
+    url: "https://www.kleague.com/getScheduleList.do"
+    league_id: "1"
+    leagues: [KR1]
+  openligadb:
+    enabled: true
+    base_url: "https://www.openligadb.de/api/getmatchdata"
+    # SoccerAN league_code → OpenLigaDB shortcut (verified live Sep 2026).
+    # Coverage notes (seasons 2024/2025/2026 = OpenLiga years):
+    #   D1/bl1 : 2024, 2025, 2026 OK
+    #   E0/PL  : 2026 OK; 2024/2025 empty (use football-data or england_mirror)
+    #   SP1/la1: 2026 OK; PD/SA/L1/FL1 empty for recent years
+    #   I1 / F1: no reliable recent OpenLigaDB coverage (use openfootball)
+    shortcuts:
+      E0: PL
+      D1: bl1
+      SP1: la1
+      # I1: null
+      # F1: null
+    # Optional season-code overrides (football-data YYXX → shortcut)
+    shortcut_overrides:
+      E0:
+        "2324": pl1
+      SP1:
+        "2324": laliga1
+  england_mirror:
+    enabled: true
+    # Optional PL-only GitHub CSV mirror (Tier==1)
+    url: "https://raw.githubusercontent.com/seanelvidge/England-football-results/main/EnglandLeagueResults.csv"
+    leagues: [E0]
+
+fixtures:
+  # Pull unfinished matches (OpenLigaDB / openfootball / jleague / kleague)
+  enabled: true
+  prefer_upcoming: true
 
 elo:
   initial: 1500.0
@@ -59,7 +142,9 @@ paths:
   predictions_json: "out/predictions_{date}.json"
 
 predict:
-  # Upcoming fixtures: if no future rows in CSV, predict next round from last known teams
-  # For v1 we score the most recent completed matches as a sanity check + emit
-  # ratings-based forecasts for all teams' "next" hypothetical home fixtures.
+  # Upcoming fixtures: if no future rows, fall back to recent/hypothetical modes
   lookback_matches: 0
+
+output:
+  # Include home_zh / away_zh in prediction CSV/JSON and CLI display helpers
+  use_chinese_names: true

@@ -1,4 +1,4 @@
-.PHONY: install test fetch update predict daily clean
+.PHONY: install test fetch fixtures update predict daily clean
 
 install:
 	pip install -e ".[dev]"
@@ -20,3 +20,6 @@ daily: fetch update predict
 clean:
 	rm -rf data/raw/*.csv out/*.csv out/*.json
 	find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+
+fixtures:
+	python -m socceran fixtures

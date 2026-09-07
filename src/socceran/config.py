@@ -18,7 +18,7 @@ def load_config(path: Path | str | None = None) -> dict[str, Any]:
     with cfg_path.open(encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
     # Resolve relative paths against repo root
-    for key in ("raw_dir",):
+    for key in ("raw_dir", "fixtures_dir"):
         if key in cfg.get("data", {}):
             p = Path(cfg["data"][key])
             if not p.is_absolute():

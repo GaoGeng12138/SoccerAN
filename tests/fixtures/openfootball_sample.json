@@ -1,0 +1,36 @@
+{
+  "name": "Italian Serie A 2026/27",
+  "matches": [
+    {
+      "round": "Matchday 1",
+      "date": "2026-08-22",
+      "time": "18:30",
+      "team1": "Udinese Calcio",
+      "team2": "Como 1907",
+      "score": {"ht": [1, 0], "ft": [1, 1]}
+    },
+    {
+      "round": "Matchday 1",
+      "date": "2026-08-22",
+      "time": "20:45",
+      "team1": "AC Milan",
+      "team2": "SSC Napoli",
+      "score": [2, 0]
+    },
+    {
+      "round": "Matchday 3",
+      "date": "2026-09-12",
+      "time": "20:45",
+      "team1": "Juventus FC",
+      "team2": "AS Roma"
+    },
+    {
+      "round": "Matchday 34",
+      "date": "2027-05-01",
+      "time": "20:45",
+      "team1": "FC Nantes",
+      "team2": "Toulouse FC",
+      "status": "canceled"
+    }
+  ]
+}

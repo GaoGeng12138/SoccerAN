@@ -35,6 +35,8 @@ htmlcov/
 # Data & outputs (keep structure)
 data/raw/*
 !data/raw/.gitkeep
+data/fixtures/*
+!data/fixtures/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
 out/*

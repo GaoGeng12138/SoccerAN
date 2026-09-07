@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from socceran.config import load_config
-from socceran.data import fetch_all, load_matches
+from socceran.data import fetch_all, fetch_fixtures, load_matches
 from socceran.elo import EloSystem
 from socceran.poisson import PoissonModel
 
@@ -25,6 +25,8 @@ def update(
     if do_fetch:
         paths = fetch_all(cfg, force=force_fetch)
         logger.info("fetched/cached %d files", len(paths))
+        fx = fetch_fixtures(cfg, force=force_fetch)
+        logger.info("fixtures cached %d files", len(fx))
 
     matches = load_matches(cfg)
     n = len(matches)

@@ -1,0 +1,649 @@
+# Simplified Chinese team-name map for SoccerAN
+# Keys: English / football-data.co.uk / OpenLigaDB / common aliases
+# Values: 简体中文 (standard Chinese sports-media names)
+# Generated for Big Five 2025/26 & 2026/27 coverage + recent promotions/relegations.
+
+Arsenal: 阿森纳
+"Arsenal FC": 阿森纳
+"FC Arsenal": 阿森纳
+"The Arsenal": 阿森纳
+Chelsea: 切尔西
+"Chelsea FC": 切尔西
+"FC Chelsea": 切尔西
+Liverpool: 利物浦
+"Liverpool FC": 利物浦
+"FC Liverpool": 利物浦
+"Manchester City": 曼城
+"Man City": 曼城
+"Man. City": 曼城
+"Manchester City FC": 曼城
+MCFC: 曼城
+"Manchester United": 曼联
+"Man United": 曼联
+"Man Utd": 曼联
+"Man. United": 曼联
+"Manchester Utd": 曼联
+"Manchester United FC": 曼联
+MUFC: 曼联
+Tottenham: 热刺
+"Tottenham Hotspur": 热刺
+Spurs: 热刺
+"Tottenham Hotspur FC": 热刺
+THFC: 热刺
+Newcastle: 纽卡斯尔联
+"Newcastle United": 纽卡斯尔联
+"Newcastle Utd": 纽卡斯尔联
+"Newcastle United FC": 纽卡斯尔联
+"Aston Villa": 阿斯顿维拉
+Villa: 阿斯顿维拉
+"Aston Villa FC": 阿斯顿维拉
+"West Ham": 西汉姆联
+"West Ham United": 西汉姆联
+"West Ham Utd": 西汉姆联
+"West Ham United FC": 西汉姆联
+Everton: 埃弗顿
+"Everton FC": 埃弗顿
+Brighton: 布莱顿
+"Brighton & Hove Albion": 布莱顿
+"Brighton and Hove Albion": 布莱顿
+"Brighton & Hove": 布莱顿
+BHA: 布莱顿
+"Crystal Palace": 水晶宫
+Palace: 水晶宫
+"Crystal Palace FC": 水晶宫
+Fulham: 富勒姆
+"Fulham FC": 富勒姆
+Brentford: 布伦特福德
+"Brentford FC": 布伦特福德
+Wolves: 狼队
+Wolverhampton: 狼队
+"Wolverhampton Wanderers": 狼队
+"Wolverhampton Wanderers FC": 狼队
+Bournemouth: 伯恩茅斯
+"AFC Bournemouth": 伯恩茅斯
+"Bournemouth AFC": 伯恩茅斯
+"Nott'm Forest": 诺丁汉森林
+"Nottingham Forest": 诺丁汉森林
+"Nottm Forest": 诺丁汉森林
+Forest: 诺丁汉森林
+"Nottingham Forest FC": 诺丁汉森林
+Leicester: 莱斯特城
+"Leicester City": 莱斯特城
+"Leicester City FC": 莱斯特城
+Southampton: 南安普顿
+"Southampton FC": 南安普顿
+Saints: 南安普顿
+Ipswich: 伊普斯维奇
+"Ipswich Town": 伊普斯维奇
+"Ipswich Town FC": 伊普斯维奇
+Burnley: 伯恩利
+"Burnley FC": 伯恩利
+Leeds: 利兹联
+"Leeds United": 利兹联
+"Leeds Utd": 利兹联
+"Leeds United FC": 利兹联
+Sunderland: 桑德兰
+"Sunderland AFC": 桑德兰
+"Sunderland FC": 桑德兰
+Luton: 卢顿
+"Luton Town": 卢顿
+"Luton Town FC": 卢顿
+"Sheffield United": 谢菲尔德联
+"Sheffield Utd": 谢菲尔德联
+"Sheff Utd": 谢菲尔德联
+"Sheffield United FC": 谢菲尔德联
+Watford: 沃特福德
+"Watford FC": 沃特福德
+Norwich: 诺维奇
+"Norwich City": 诺维奇
+"Norwich City FC": 诺维奇
+Coventry: 考文垂
+"Coventry City": 考文垂
+"Coventry City FC": 考文垂
+Middlesbrough: 米德尔斯堡
+"Middlesbrough FC": 米德尔斯堡
+"West Brom": 西布朗
+"West Bromwich": 西布朗
+"West Bromwich Albion": 西布朗
+WBA: 西布朗
+Stoke: 斯托克城
+"Stoke City": 斯托克城
+"Stoke City FC": 斯托克城
+Swansea: 斯旺西
+"Swansea City": 斯旺西
+"Swansea City FC": 斯旺西
+Cardiff: 卡迪夫城
+"Cardiff City": 卡迪夫城
+"Cardiff City FC": 卡迪夫城
+Hull: 赫尔城
+"Hull City": 赫尔城
+"Hull City FC": 赫尔城
+"Queens Park Rangers": 女王公园巡游者
+QPR: 女王公园巡游者
+"Queens Park Rangers FC": 女王公园巡游者
+Birmingham: 伯明翰
+"Birmingham City": 伯明翰
+"Birmingham City FC": 伯明翰
+Blackburn: 布莱克本
+"Blackburn Rovers": 布莱克本
+"Blackburn Rovers FC": 布莱克本
+"Sheffield Wednesday": 谢菲尔德星期三
+"Sheffield Wed": 谢菲尔德星期三
+"Sheff Wed": 谢菲尔德星期三
+Derby: 德比郡
+"Derby County": 德比郡
+"Derby County FC": 德比郡
+Portsmouth: 朴茨茅斯
+"Portsmouth FC": 朴茨茅斯
+Oxford: 牛津联
+"Oxford United": 牛津联
+"Oxford Utd": 牛津联
+Plymouth: 普利茅斯
+"Plymouth Argyle": 普利茅斯
+Barcelona: 巴萨
+Barca: 巴萨
+"Barça": 巴萨
+"FC Barcelona": 巴萨
+FCB: 巴萨
+"Real Madrid": 皇马
+Madrid: 皇马
+"Real Madrid CF": 皇马
+"R. Madrid": 皇马
+"皇马": 皇马
+"Ath Madrid": 马竞
+"Atletico Madrid": 马竞
+"Atlético Madrid": 马竞
+Atletico: 马竞
+Atleti: 马竞
+"Atletico de Madrid": 马竞
+"Club Atletico de Madrid": 马竞
+"Ath Bilbao": 毕尔巴鄂竞技
+"Athletic Bilbao": 毕尔巴鄂竞技
+"Athletic Club": 毕尔巴鄂竞技
+Athletic: 毕尔巴鄂竞技
+"Athletic Club Bilbao": 毕尔巴鄂竞技
+Sevilla: 塞维利亚
+"Sevilla FC": 塞维利亚
+Seville: 塞维利亚
+"Real Sociedad": 皇家社会
+Sociedad: 皇家社会
+"R. Sociedad": 皇家社会
+Villarreal: 比利亚雷亚尔
+"Villarreal CF": 比利亚雷亚尔
+Villareal: 比利亚雷亚尔
+"Real Betis": 皇家贝蒂斯
+Betis: 皇家贝蒂斯
+"Betis Sevilla": 皇家贝蒂斯
+Valencia: 瓦伦西亚
+"Valencia CF": 瓦伦西亚
+Osasuna: 奥萨苏纳
+"CA Osasuna": 奥萨苏纳
+Celta: 塞尔塔
+"Celta Vigo": 塞尔塔
+"Celta de Vigo": 塞尔塔
+"RC Celta": 塞尔塔
+Mallorca: 马略卡
+"RCD Mallorca": 马略卡
+"Real Mallorca": 马略卡
+Girona: 赫罗纳
+"Girona FC": 赫罗纳
+Getafe: 赫塔费
+"Getafe CF": 赫塔费
+Alaves: 阿拉维斯
+"Alavés": 阿拉维斯
+"Deportivo Alaves": 阿拉维斯
+"Deportivo Alavés": 阿拉维斯
+"Las Palmas": 拉斯帕尔马斯
+"UD Las Palmas": 拉斯帕尔马斯
+Vallecano: 巴列卡诺
+"Rayo Vallecano": 巴列卡诺
+Rayo: 巴列卡诺
+Espanyol: 西班牙人
+"RCD Espanyol": 西班牙人
+Espanol: 西班牙人
+Leganes: 莱加内斯
+"Leganés": 莱加内斯
+"CD Leganes": 莱加内斯
+"CD Leganés": 莱加内斯
+Valladolid: 巴拉多利德
+"Real Valladolid": 巴拉多利德
+Elche: 埃尔切
+"Elche CF": 埃尔切
+Levante: 莱万特
+"Levante UD": 莱万特
+Cadiz: 加的斯
+"Cádiz": 加的斯
+"Cadiz CF": 加的斯
+"Cádiz CF": 加的斯
+Granada: 格拉纳达
+"Granada CF": 格拉纳达
+Almeria: 阿尔梅里亚
+"Almería": 阿尔梅里亚
+"UD Almeria": 阿尔梅里亚
+"UD Almería": 阿尔梅里亚
+Eibar: 埃瓦尔
+"SD Eibar": 埃瓦尔
+Oviedo: 奥维耶多
+"Real Oviedo": 奥维耶多
+"Sp Gijon": 希洪竞技
+"Sporting Gijon": 希洪竞技
+"Sporting Gijón": 希洪竞技
+"Sporting de Gijon": 希洪竞技
+Inter: 国米
+"Inter Milan": 国米
+Internazionale: 国米
+"FC Internazionale": 国米
+"Inter Milano": 国米
+Nerazzurri: 国米
+Milan: AC米兰
+"AC Milan": AC米兰
+"A.C. Milan": AC米兰
+Rossoneri: AC米兰
+Juventus: 尤文
+Juve: 尤文
+"Juventus FC": 尤文
+"Juventus Turin": 尤文
+Napoli: 那不勒斯
+"SSC Napoli": 那不勒斯
+Naples: 那不勒斯
+"S.S.C. Napoli": 那不勒斯
+Roma: 罗马
+"AS Roma": 罗马
+"A.S. Roma": 罗马
+Lazio: 拉齐奥
+"SS Lazio": 拉齐奥
+"S.S. Lazio": 拉齐奥
+Atalanta: 亚特兰大
+"Atalanta BC": 亚特兰大
+"Atalanta Bergamo": 亚特兰大
+Fiorentina: 佛罗伦萨
+"ACF Fiorentina": 佛罗伦萨
+Florence: 佛罗伦萨
+Bologna: 博洛尼亚
+"Bologna FC": 博洛尼亚
+"Bologna FC 1909": 博洛尼亚
+Torino: 都灵
+"Torino FC": 都灵
+Genoa: 热那亚
+"Genoa CFC": 热那亚
+Udinese: 乌迪内斯
+"Udinese Calcio": 乌迪内斯
+Sassuolo: 萨索洛
+"US Sassuolo": 萨索洛
+"Sassuolo Calcio": 萨索洛
+Cagliari: 卡利亚里
+"Cagliari Calcio": 卡利亚里
+Empoli: 恩波利
+"Empoli FC": 恩波利
+Verona: 维罗纳
+"Hellas Verona": 维罗纳
+"Hellas Verona FC": 维罗纳
+Lecce: 莱切
+"US Lecce": 莱切
+Parma: 帕尔马
+"Parma Calcio": 帕尔马
+"Parma FC": 帕尔马
+Como: 科莫
+"Como 1907": 科莫
+"Como Calcio": 科莫
+Venezia: 威尼斯
+"Venezia FC": 威尼斯
+Monza: 蒙扎
+"AC Monza": 蒙扎
+Cremonese: 克雷莫纳
+"US Cremonese": 克雷莫纳
+Pisa: 比萨
+"Pisa SC": 比萨
+"AC Pisa": 比萨
+Spezia: 斯佩齐亚
+"Spezia Calcio": 斯佩齐亚
+Salernitana: 萨勒尼塔纳
+"US Salernitana": 萨勒尼塔纳
+Frosinone: 弗罗西诺内
+"Frosinone Calcio": 弗罗西诺内
+Sampdoria: 桑普多利亚
+"UC Sampdoria": 桑普多利亚
+"Bayern Munich": 拜仁慕尼黑
+"Bayern München": 拜仁慕尼黑
+"Bayern Munchen": 拜仁慕尼黑
+"FC Bayern": 拜仁慕尼黑
+"FC Bayern Munich": 拜仁慕尼黑
+"FC Bayern München": 拜仁慕尼黑
+Bayern: 拜仁慕尼黑
+Dortmund: 多特蒙德
+"Borussia Dortmund": 多特蒙德
+BVB: 多特蒙德
+"Borussia Dortmund 09": 多特蒙德
+Leverkusen: 勒沃库森
+"Bayer Leverkusen": 勒沃库森
+"Bayer 04 Leverkusen": 勒沃库森
+"Bayer 04": 勒沃库森
+"RB Leipzig": 莱比锡红牛
+Leipzig: 莱比锡红牛
+"RasenBallsport Leipzig": 莱比锡红牛
+Stuttgart: 斯图加特
+"VfB Stuttgart": 斯图加特
+"VFB Stuttgart": 斯图加特
+Frankfurt: 法兰克福
+"Eintracht Frankfurt": 法兰克福
+SGE: 法兰克福
+Eintracht: 法兰克福
+Wolfsburg: 沃尔夫斯堡
+"VfL Wolfsburg": 沃尔夫斯堡
+"VFL Wolfsburg": 沃尔夫斯堡
+"M'gladbach": 门兴格拉德巴赫
+Gladbach: 门兴格拉德巴赫
+"Borussia Monchengladbach": 门兴格拉德巴赫
+"Borussia Mönchengladbach": 门兴格拉德巴赫
+"Bor. M'gladbach": 门兴格拉德巴赫
+Moenchengladbach: 门兴格拉德巴赫
+Freiburg: 弗赖堡
+"SC Freiburg": 弗赖堡
+Hoffenheim: 霍芬海姆
+"TSG Hoffenheim": 霍芬海姆
+"1899 Hoffenheim": 霍芬海姆
+Augsburg: 奥格斯堡
+"FC Augsburg": 奥格斯堡
+Mainz: 美因茨
+"Mainz 05": 美因茨
+"FSV Mainz": 美因茨
+"FSV Mainz 05": 美因茨
+"1. FSV Mainz 05": 美因茨
+"Union Berlin": 柏林联合
+"1. FC Union Berlin": 柏林联合
+"FC Union Berlin": 柏林联合
+"Werder Bremen": 不莱梅
+Bremen: 不莱梅
+"SV Werder Bremen": 不莱梅
+Werder: 不莱梅
+Heidenheim: 海登海姆
+"1. FC Heidenheim": 海登海姆
+"FC Heidenheim": 海登海姆
+"St Pauli": 圣保利
+"St. Pauli": 圣保利
+"FC St. Pauli": 圣保利
+"FC St Pauli": 圣保利
+"Holstein Kiel": 荷尔斯泰因基尔
+Kiel: 荷尔斯泰因基尔
+Holstein: 荷尔斯泰因基尔
+Bochum: 波鸿
+"VfL Bochum": 波鸿
+"Bochum 1848": 波鸿
+Cologne: 科隆
+Koln: 科隆
+"Köln": 科隆
+"FC Koln": 科隆
+"FC Köln": 科隆
+"1. FC Koln": 科隆
+"1. FC Köln": 科隆
+"1.FC Köln": 科隆
+Hamburg: 汉堡
+"Hamburger SV": 汉堡
+HSV: 汉堡
+Hamburger: 汉堡
+Hertha: 赫塔柏林
+"Hertha Berlin": 赫塔柏林
+"Hertha BSC": 赫塔柏林
+Schalke: 沙尔克04
+"Schalke 04": 沙尔克04
+"FC Schalke 04": 沙尔克04
+Hannover: 汉诺威96
+"Hannover 96": 汉诺威96
+Darmstadt: 达姆施塔特
+"Darmstadt 98": 达姆施塔特
+"SV Darmstadt 98": 达姆施塔特
+"Greuther Furth": 菲尔特
+"Greuther Fürth": 菲尔特
+"SpVgg Greuther Furth": 菲尔特
+Paderborn: 帕德博恩
+"SC Paderborn": 帕德博恩
+"SC Paderborn 07": 帕德博恩
+Nurnberg: 纽伦堡
+"Nürnberg": 纽伦堡
+"1. FC Nurnberg": 纽伦堡
+"1. FC Nürnberg": 纽伦堡
+Bielefeld: 比勒费尔德
+"Arminia Bielefeld": 比勒费尔德
+"Paris SG": 巴黎圣日耳曼
+PSG: 巴黎圣日耳曼
+"Paris Saint-Germain": 巴黎圣日耳曼
+"Paris Saint Germain": 巴黎圣日耳曼
+"Paris Saint-Germain FC": 巴黎圣日耳曼
+Marseille: 马赛
+"Olympique Marseille": 马赛
+"Olympique de Marseille": 马赛
+OM: 马赛
+Lyon: 里昂
+"Olympique Lyon": 里昂
+"Olympique Lyonnais": 里昂
+OL: 里昂
+Monaco: 摩纳哥
+"AS Monaco": 摩纳哥
+"AS Monaco FC": 摩纳哥
+Lille: 里尔
+"LOSC Lille": 里尔
+"Lille OSC": 里尔
+LOSC: 里尔
+Nice: 尼斯
+"OGC Nice": 尼斯
+Rennes: 雷恩
+"Stade Rennais": 雷恩
+"Stade Rennes": 雷恩
+SRFC: 雷恩
+Lens: 朗斯
+"RC Lens": 朗斯
+Nantes: 南特
+"FC Nantes": 南特
+Strasbourg: 斯特拉斯堡
+"RC Strasbourg": 斯特拉斯堡
+"Racing Strasbourg": 斯特拉斯堡
+"RC Strasbourg Alsace": 斯特拉斯堡
+Toulouse: 图卢兹
+"Toulouse FC": 图卢兹
+Reims: 兰斯
+"Stade de Reims": 兰斯
+"Stade Reims": 兰斯
+Montpellier: 蒙彼利埃
+"Montpellier HSC": 蒙彼利埃
+MHSC: 蒙彼利埃
+Brest: 布雷斯特
+"Stade Brestois": 布雷斯特
+"Stade Brestois 29": 布雷斯特
+Auxerre: 欧塞尔
+"AJ Auxerre": 欧塞尔
+"Le Havre": 勒阿弗尔
+Havre: 勒阿弗尔
+"Le Havre AC": 勒阿弗尔
+Angers: 昂热
+"Angers SCO": 昂热
+Metz: 梅斯
+"FC Metz": 梅斯
+"St Etienne": 圣埃蒂安
+Saint-Etienne: 圣埃蒂安
+"Saint-Étienne": 圣埃蒂安
+"AS Saint-Etienne": 圣埃蒂安
+"AS Saint-Étienne": 圣埃蒂安
+ASSE: 圣埃蒂安
+Lorient: 洛里昂
+"FC Lorient": 洛里昂
+Clermont: 克莱蒙
+"Clermont Foot": 克莱蒙
+"Clermont Foot 63": 克莱蒙
+Troyes: 特鲁瓦
+"ESTAC Troyes": 特鲁瓦
+Ajaccio: 阿雅克肖
+"AC Ajaccio": 阿雅克肖
+"Paris FC": 巴黎FC
+PFC: 巴黎FC
+"Le Mans": 勒芒
+"Le Mans FC": 勒芒
+
+# --- OpenLigaDB / 2026 aliases (extend) ---
+"Brentford F.C.": 布伦特福德
+"SV 07 Elversberg": 埃尔弗斯贝格
+Elversberg: 埃尔弗斯贝格
+"Deportivo A Coruña": 拉科鲁尼亚
+"Deportivo La Coruna": 拉科鲁尼亚
+"Dep. La Coruna": 拉科鲁尼亚
+"La Coruna": 拉科鲁尼亚
+"Espanyol Barcelona": 西班牙人
+"FC Malaga": 马拉加
+Malaga: 马拉加
+"Málaga": 马拉加
+"Racing Santander": 桑坦德竞技
+Santander: 桑坦德竞技
+"Hull City FC": 赫尔城
+Hull: 赫尔城
+
+# --- openfootball football.json aliases (I1 / F1 full club names) ---
+"FC Internazionale Milano": 国米
+"US Sassuolo Calcio": 萨索洛
+"Parma Calcio 1913": 帕尔马
+"AC Pisa 1909": 比萨
+"Stade Rennais FC 1901": 雷恩
+"Racing Club de Lens": 朗斯
+"ES Troyes AC": 特鲁瓦
+
+# --- J1 League (JP1) — official site abbreviations + English aliases ---
+"鹿島": 鹿岛鹿角
+"鹿岛": 鹿岛鹿角
+"Kashima Antlers": 鹿岛鹿角
+Kashima: 鹿岛鹿角
+"浦和": 浦和红钻
+"Urawa Reds": 浦和红钻
+"Urawa Red Diamonds": 浦和红钻
+Urawa: 浦和红钻
+"横浜FM": 横滨水手
+"Yokohama F. Marinos": 横滨水手
+"Yokohama F･M": 横滨水手
+"Yokohama FM": 横滨水手
+"横浜FC": 横滨FC
+"Yokohama FC": 横滨FC
+"川崎Ｆ": 川崎前锋
+"川崎F": 川崎前锋
+"Kawasaki Frontale": 川崎前锋
+Kawasaki: 川崎前锋
+"Ｇ大阪": 大阪钢巴
+"G大阪": 大阪钢巴
+"Gamba Osaka": 大阪钢巴
+Gamba: 大阪钢巴
+"Ｃ大阪": 大阪樱花
+"C大阪": 大阪樱花
+"Cerezo Osaka": 大阪樱花
+Cerezo: 大阪樱花
+"名古屋": 名古屋鲸八
+"Nagoya Grampus": 名古屋鲸八
+Nagoya: 名古屋鲸八
+"広島": 广岛三箭
+"广岛": 广岛三箭
+"Sanfrecce Hiroshima": 广岛三箭
+Hiroshima: 广岛三箭
+"神戸": 神户胜利船
+"Vissel Kobe": 神户胜利船
+Kobe: 神户胜利船
+"FC東京": 东京FC
+"FC Tokyo": 东京FC
+"東京Ｖ": 东京绿茵
+"Tokyo Verdy": 东京绿茵
+"Tokyo-V": 东京绿茵
+"柏": 柏太阳神
+"Kashiwa Reysol": 柏太阳神
+Kashiwa: 柏太阳神
+"新潟": 新潟天鹅
+"Albirex Niigata": 新潟天鹅
+Niigata: 新潟天鹅
+"福岡": 福冈黄蜂
+"Avispa Fukuoka": 福冈黄蜂
+Fukuoka: 福冈黄蜂
+"京都": 京都桑加
+"Kyoto Sanga": 京都桑加
+"Kyoto Sanga FC": 京都桑加
+Kyoto: 京都桑加
+"町田": 町田泽维亚
+"Machida Zelvia": 町田泽维亚
+"FC Machida Zelvia": 町田泽维亚
+Machida: 町田泽维亚
+"湘南": 湘南海洋
+"Shonan Bellmare": 湘南海洋
+Shonan: 湘南海洋
+"清水": 清水心跳
+"Shimizu S-Pulse": 清水心跳
+Shimizu: 清水心跳
+"磐田": 磐田喜悦
+"Jubilo Iwata": 磐田喜悦
+"Júbilo Iwata": 磐田喜悦
+Iwata: 磐田喜悦
+"札幌": 札幌冈萨多
+"Consadole Sapporo": 札幌冈萨多
+"Hokkaido Consadole Sapporo": 札幌冈萨多
+Sapporo: 札幌冈萨多
+"鳥栖": 鸟栖砂岩
+"Sagan Tosu": 鸟栖砂岩
+Tosu: 鸟栖砂岩
+"岡山": 冈山绿雉
+"Fagiano Okayama": 冈山绿雉
+Okayama: 冈山绿雉
+"千葉": 千叶市原
+"JEF United Chiba": 千叶市原
+Chiba: 千叶市原
+"長崎": 长崎成功丸
+"V-Varen Nagasaki": 长崎成功丸
+Nagasaki: 长崎成功丸
+"水戸": 水户蜀葵
+"Mito Hollyhock": 水户蜀葵
+Mito: 水户蜀葵
+
+# --- K League 1 (KR1) — official short names + English aliases ---
+"울산": 蔚山HD
+"Ulsan HD": 蔚山HD
+"Ulsan Hyundai": 蔚山HD
+"Ulsan Hyundai FC": 蔚山HD
+Ulsan: 蔚山HD
+"전북": 全北现代
+"Jeonbuk Hyundai Motors": 全北现代
+Jeonbuk: 全北现代
+"서울": FC首尔
+"FC Seoul": FC首尔
+Seoul: FC首尔
+"포항": 浦项制铁
+"Pohang Steelers": 浦项制铁
+Pohang: 浦项制铁
+"인천": 仁川联
+"Incheon United": 仁川联
+"Incheon United FC": 仁川联
+Incheon: 仁川联
+"수원": 水原三星
+"Suwon Samsung Bluewings": 水原三星
+Suwon: 水原三星
+"수원FC": 水原FC
+"Suwon FC": 水原FC
+"제주": 济州SK
+"Jeju SK": 济州SK
+"Jeju United": 济州SK
+"Jeju United FC": 济州SK
+Jeju: 济州SK
+"대전": 大田Hana
+"Daejeon Hana Citizen": 大田Hana
+Daejeon: 大田Hana
+"대구": 大邱FC
+"Daegu FC": 大邱FC
+Daegu: 大邱FC
+"광주": 光州FC
+"Gwangju FC": 光州FC
+Gwangju: 光州FC
+"강원": 江原FC
+"Gangwon FC": 江原FC
+Gangwon: 江原FC
+"김천": 金泉尚武
+"Gimcheon Sangmu": 金泉尚武
+Sangmu: 金泉尚武
+"안양": FC安养
+"FC Anyang": FC安养
+Anyang: FC安养
+"부천": 富川1995
+"Bucheon FC 1995": 富川1995
+Bucheon: 富川1995
+"서울E": 首尔衣恋
+"Seoul E-Land": 首尔衣恋
+"충남아산": 忠南牙山
+"Chungnam Asan": 忠南牙山
