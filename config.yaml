@@ -1,0 +1,65 @@
+# SoccerAN baseline config — Big Five leagues (football-data.co.uk)
+
+leagues:
+  E0:
+    name: "ENG Premier League"
+    code: E0
+  SP1:
+    name: "ESP La Liga"
+    code: SP1
+  I1:
+    name: "ITA Serie A"
+    code: I1
+  D1:
+    name: "GER Bundesliga"
+    code: D1
+  F1:
+    name: "FRA Ligue 1"
+    code: F1
+
+# Season codes relative to "current" (e.g. 2526 = 2025-26).
+# fetch will pull these many recent seasons ending at current_season.
+seasons:
+  count: 3
+  # Override if needed, e.g. "2526". Empty = auto from today's date (UTC+8 aware heuristic).
+  current: ""
+
+data:
+  base_url: "https://www.football-data.co.uk/mmz4281"
+  raw_dir: "data/raw"
+  # CSV columns used (football-data.co.uk format)
+  date_col: Date
+  home_col: HomeTeam
+  away_col: AwayTeam
+  fthg_col: FTHG
+  ftag_col: FTAG
+  ftr_col: FTR
+
+elo:
+  initial: 1500.0
+  k: 20.0
+  home_advantage: 65.0
+  # Per-league ratings (recommended) vs single global pool
+  scope: per_league
+
+poisson:
+  # "goals" = Dixon-Coles-style attack/defense from goals
+  # "elo"   = map Elo difference to expected goals
+  mode: goals
+  # Shrinkage / prior strength for attack/defense (matches of league average)
+  prior_strength: 8.0
+  # Home advantage multiplier on home attack (goals mode)
+  home_attack_boost: 1.15
+  max_goals: 10  # truncate Poisson PMF for 1X2
+
+paths:
+  elo_state: "out/elo_state.json"
+  poisson_state: "out/poisson_state.json"
+  predictions_csv: "out/predictions_{date}.csv"
+  predictions_json: "out/predictions_{date}.json"
+
+predict:
+  # Upcoming fixtures: if no future rows in CSV, predict next round from last known teams
+  # For v1 we score the most recent completed matches as a sanity check + emit
+  # ratings-based forecasts for all teams' "next" hypothetical home fixtures.
+  lookback_matches: 0
